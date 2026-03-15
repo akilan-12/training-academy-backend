@@ -1,79 +1,99 @@
-Training Academy Management System – Backend
+# 🎓 Training Academy Management System – Backend
 
-Overview
+Backend API for the **Training Academy Management System** built using **Spring Boot**.  
+This service manages authentication, courses, trainers, and students, and exposes REST APIs used by the frontend application.
 
-This repository contains the Spring Boot backend API for the Training Academy Management System.
+---
 
-The backend handles authentication, course management, trainer management, and student management. It exposes REST APIs that are consumed by the React frontend.
+## 🚀 Overview
 
-Tech Stack
+The backend provides APIs to manage training academy operations including users, courses, and trainer assignments.  
+It connects with a React frontend to deliver a complete full-stack application.
 
-- Java
-- Spring Boot
-- Spring Data JPA
-- MySQL
-- Maven
-- REST APIs
+---
 
-Features
+## 🛠 Tech Stack
 
-- Role-based authentication (Admin / Trainer)
-- Course management
-- Trainer management
-- Student management
-- Assign students to trainers
-- REST API integration with frontend
+- ☕ Java  
+- 🌱 Spring Boot  
+- 📦 Spring Data JPA  
+- 🗄 MySQL  
+- 🔧 Maven  
+- 🔗 REST APIs  
 
-Project Structure
+---
 
+## ✨ Features
+
+- 🔐 Role-based authentication (Admin / Trainer)
+- 📚 Course management
+- 👨‍🏫 Trainer management
+- 👨‍🎓 Student management
+- 🔗 Assign students to trainers
+- ⚡ REST API integration with frontend
+
+---
+
+## 📁 Project Structure
+
+```
 src/main/java/
 
-- controller → REST API endpoints
-- service → Business logic
-- repository → Database operations
-- entity → JPA entities
-- config / utils → Helper configurations
+controller   → REST API endpoints  
+service      → Business logic  
+repository   → Database operations  
+entity       → JPA entities  
+config       → Configuration classes  
 
 src/main/resources/
 
-- application.properties
+application.properties
+```
 
-Setup Instructions
+---
 
-1. Clone the repository
+## ⚙️ Setup Instructions
 
+### 📥 Clone the repository
+
+```bash
 git clone https://github.com/akilan-12/training-academy-backend.git
+```
 
-2. Navigate to the project folder
+### 📂 Navigate to the project folder
 
+```bash
 cd training-academy-backend
+```
 
-3. Configure database in application.properties
+### 🗄 Configure database
 
+Update `application.properties`
+
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/training_academy
 spring.datasource.username=your_username
 spring.datasource.password=your_password
+```
 
-4. Run the application
+### ▶️ Run the application
 
-Using Maven:
-
+```bash
 mvn spring-boot:run
+```
 
-Or run the main Spring Boot application class from your IDE.
+Backend server runs at:
 
-The backend server will start on:
-
+```
 http://localhost:8080
+```
 
-API Base URL
+## 💻 Frontend Repository
 
-http://localhost:8080/api
+🔗 https://github.com/akilan-12/training-academy-frontend
 
-Frontend Repository
+---
 
-https://github.com/akilan-12/training-academy-frontend
+## 🌐 Live Application
 
-Author
-
-Akilan
+🔗 https://training-academy-backend.onrender.com
