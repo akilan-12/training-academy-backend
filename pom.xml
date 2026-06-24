@@ -5,6 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
 		<version>4.0.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
@@ -12,6 +13,15 @@
 	<artifactId>training-academy-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>training-academy-backend</name>
+=======
+		<version>3.5.6</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.fita</groupId>
+	<artifactId>trainingacademy</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>trainingacademy</name>
+>>>>>>> db708dc3ce4493d565eebb81defdba501f3d9960
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -27,7 +37,11 @@
 		<url/>
 	</scm>
 	<properties>
+<<<<<<< HEAD
 		<java.version>21</java.version>
+=======
+		<java.version>17</java.version>
+>>>>>>> db708dc3ce4493d565eebb81defdba501f3d9960
 	</properties>
 	<dependencies>
 		<dependency>
@@ -36,11 +50,15 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
+=======
+			<artifactId>spring-boot-starter-web</artifactId>
+>>>>>>> db708dc3ce4493d565eebb81defdba501f3d9960
 		</dependency>
 
 		<dependency>
@@ -50,6 +68,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter-data-jpa-test</artifactId>
 			<scope>test</scope>
 		</dependency>
@@ -63,6 +82,20 @@
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+=======
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+<dependency>
+<groupId>com.h2database</groupId>
+<artifactId>h2</artifactId>
+<scope>runtime</scope>
+</dependency>
+>>>>>>> db708dc3ce4493d565eebb81defdba501f3d9960
 	</dependencies>
 
 	<build>
